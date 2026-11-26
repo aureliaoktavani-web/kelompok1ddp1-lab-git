@@ -1,5 +1,10 @@
 # HeyPiko — Habit & Energy Pattern Tracker
 
+**Kelompok 1 DDP 1 (`kelompok1ddp1-lab-git`) — Asdos Kalfin**
+- Anyakarina
+- Aurelia Oktavani Wijayanto
+- Grivinie Gwynneth Agustin
+
 Aplikasi pelacak kebiasaan dan pola energi harian berbasis Python + Streamlit dengan karakter pendamping **Piko**.
 
 ## Struktur Proyek (Modular untuk Kerja Kelompok)
@@ -28,12 +33,13 @@ heypiko/
 ## Cara Menjalankan di Laptop
 
 ```powershell
-# 1. Aktifkan virtual environment (dari folder Project)
-.\.venv\Scripts\Activate.ps1
+# Jalankan langsung dari folder Project
+.\.venv\Scripts\streamlit.exe run heypiko\main.py
+```
 
-# 2. Masuk ke folder heypiko
-cd heypiko
+Atau jika berada di dalam folder `heypiko`:
 
-# 3. Jalankan Streamlit
+```powershell
+pip install -r requirements.txt
 streamlit run main.py
 ```
